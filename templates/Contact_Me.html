@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='shortcut icon' href="{{ url_for('static', filename='icon.ico') }}">
+    <link rel="stylesheet" href="/static/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Me</title>
+</head>
+<body>
+    <h1>Contact Me!</h1>
+    <form action="submit_form" method="post">
+    <div class="contact-container">
+        <div class="contact-border">
+        <div><label>Email:</label><input class="email" name="email" type="email"></div>
+        <div><label>Subject:</label><input class="subject" name="subject" type="subject"></div>
+        <div><label>Message:</label><textarea class="message" name="message"></textarea></div>
+        <button class="contactme">Submit</button>
+        </div>
+    </div>
+    <div class="contact-bottom">
+        
+    </div>
+</body> 
+</html>
